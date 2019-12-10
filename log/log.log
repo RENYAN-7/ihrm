@@ -1,0 +1,18 @@
+2019-12-09 14:25:00,483  DEBUG  [urllib3.connectionpool]  [connectionpool.py(_new_conn:225)]  -  Starting new HTTP connection (1): 182.92.81.159:80
+2019-12-09 14:25:00,505  DEBUG  [urllib3.connectionpool]  [connectionpool.py(_make_request:437)]  -  http://182.92.81.159:80 "POST /api/sys/login HTTP/1.1" 200 None
+2019-12-09 14:25:00,507  DEBUG  [root]  [test01_login.py(test01_login:21)]  -  {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '371800e1-f99b-4179-bac0-92566445a55e'}
+2019-12-09 14:25:00,509  DEBUG  [urllib3.connectionpool]  [connectionpool.py(_new_conn:225)]  -  Starting new HTTP connection (1): 182.92.81.159:80
+2019-12-09 14:25:00,533  DEBUG  [urllib3.connectionpool]  [connectionpool.py(_make_request:437)]  -  http://182.92.81.159:80 "POST /api/sys/user HTTP/1.1" 200 None
+2019-12-09 14:25:00,534  DEBUG  [root]  [test02_employee.py(test01_post_employee:23)]  -  {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1203923482500747264'}}
+2019-12-09 14:25:00,536  DEBUG  [urllib3.connectionpool]  [connectionpool.py(_new_conn:225)]  -  Starting new HTTP connection (1): 182.92.81.159:80
+2019-12-09 14:25:00,556  DEBUG  [urllib3.connectionpool]  [connectionpool.py(_make_request:437)]  -  http://182.92.81.159:80 "GET /api/sys/user/1203923482500747264 HTTP/1.1" 200 None
+2019-12-09 14:25:00,557  DEBUG  [root]  [test02_employee.py(test02_get_employee:30)]  -  {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1203923482500747264', 'mobile': '13575461211', 'username': 'bdfagh', 'password': 'aef2a5bb2b6f24044e5b1020da3f59e8', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': None, 'timeOfEntry': None, 'formOfEmployment': None, 'workNumber': '415141', 'formOfManagement': None, 'workingCity': None, 'correctionTime': None, 'inServiceStatus': None, 'departmentName': None, 'roleIds': [], 'staffPhoto': None}}
+2019-12-09 14:25:00,559  DEBUG  [urllib3.connectionpool]  [connectionpool.py(_new_conn:225)]  -  Starting new HTTP connection (1): 182.92.81.159:80
+2019-12-09 14:25:00,581  DEBUG  [urllib3.connectionpool]  [connectionpool.py(_make_request:437)]  -  http://182.92.81.159:80 "PUT /api/sys/user/1203923482500747264 HTTP/1.1" 200 None
+2019-12-09 14:25:00,582  DEBUG  [root]  [test02_employee.py(test03_put_employee:37)]  -  {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1203923482500747264'}}
+2019-12-09 14:25:00,584  DEBUG  [urllib3.connectionpool]  [connectionpool.py(_new_conn:225)]  -  Starting new HTTP connection (1): 182.92.81.159:80
+2019-12-09 14:25:00,605  DEBUG  [urllib3.connectionpool]  [connectionpool.py(_make_request:437)]  -  http://182.92.81.159:80 "DELETE /api/sys/user/1203923482500747264 HTTP/1.1" 200 None
+2019-12-09 14:25:00,606  DEBUG  [root]  [test02_employee.py(test04_delete_employee:44)]  -  {'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2019-12-09 14:36:44,538  DEBUG  [urllib3.connectionpool]  [connectionpool.py(_new_conn:225)]  -  Starting new HTTP connection (1): 182.92.81.159:80
+2019-12-09 14:36:44,564  DEBUG  [urllib3.connectionpool]  [connectionpool.py(_make_request:437)]  -  http://182.92.81.159:80 "POST /api/sys/login HTTP/1.1" 200 None
+2019-12-09 14:36:44,565  DEBUG  [root]  [test01_login.py(test01_login:21)]  -  {'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'df40e0bc-3cde-4a0d-bd59-de998d16ac4a'}
